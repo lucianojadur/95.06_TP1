@@ -1,4 +1,5 @@
 import csv
+from sys import argv
 
 class Contract():
 
@@ -37,11 +38,9 @@ def parse(path):
 		for row in register:
 			c = Contract(row[0], int(row[1]), int(row[2]))
 			candidates.append(c)
-	
+#	for c in candidates:
+#		print(c.info())
 	return candidates
-
-	#for c in candidates:
-	#	print(c.info())
 
 
 def get_contracts(list):
@@ -52,8 +51,17 @@ def write_output(list):
 	with open('salida.txt', 'w'):
 		#...
 
-def main(path):
-	candidates = parse(path)
-	accepted = get_contracts(candidates)
 
-#main('ejemplo.csv')
+def main(argv):
+	assert len(argv) == 2
+
+	candidates = parse(argv[1])
+	accepted = get_contracts(candidates)
+	write_output(accepted)
+
+
+
+###Tests###
+
+#parse('ejemplo.csv')
+#main(argv)
