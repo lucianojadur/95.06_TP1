@@ -48,8 +48,9 @@ def get_contracts(list):
 
 
 def write_output(list):
-	with open('salida.txt', 'w'):
-		#...
+	with open('salida.txt', 'w') as File:
+		for candidate in list:
+			File.write(candidate.name() + '\n')
 
 
 def main(argv):
