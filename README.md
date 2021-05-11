@@ -2,13 +2,14 @@
 Trabajo práctico 1 -Teoría de Algoritmos I (75.29 / 95.06)  1C 2021
 
 <Autores> Autores:
-	Batallan, David Leonardo
-	Flouret, Agustín Miguel 
-	Jadur, Luciano 
-	Milhas, Facundo 
-	de Vedia, Agustín Mariano
+	
+	Batallan, David Leonardo; 
+	Flouret, Agustín Miguel; 
+	Jadur, Luciano; 
+	Milhas, Facundo; 
+	de Vedia, Agustín Mariano.
 </Autores>
-  <Enunciado> :
+  <Enunciado> Enunciado:
 	
 		Un servidor de videojuegos se alquila por horas. El contrato dura un tiempo fijo y permite utilizar en forma exclusiva el mismo por una cantidad
 	contigua de horas una vez por semana. Por cada contrato que el dueño del servidor establece, se lleva un monto fijo de dinero. 
