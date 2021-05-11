@@ -26,22 +26,18 @@ class Contract():
 
         if self.start() == another_contract.start() and self.end() == another_contract.end():
             return True
-        #print(another_contract.name())
-        #print(self.name())
+      
         if self.is_cyclic():
             is_incompatible = (self.end() < another_contract.start() and self.start() < another_contract.start()) or (
                         self.end() > another_contract.end() and self.start() > another_contract.end())
             if is_incompatible == True:
                 print("incompatible")
                 return True
-
+            
         is_incompatible = (self.start() > another_contract.start() and self.start() < another_contract.end()) or (
                     self.end() > another_contract.start() and self.end() < another_contract.end())
-        if is_incompatible == True:
-            #print("incompatible")
-            return True
-
-        return False
+        
+        return is_incompatible
 
     def is_cyclic(self):
         return self.end() < self.start()
