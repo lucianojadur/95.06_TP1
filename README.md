@@ -1,13 +1,13 @@
 # 95.06_TP1
 Trabajo práctico 1 -Teoría de Algoritmos I (75.29 / 95.06)  1C 2021
 
-Autores:
-  Batallan, David Leonardo
-  Flouret, Agustín Miguel 
-  Jadur, Luciano 
-  Milhas, Facundo 
-  de Vedia, Agustín Mariano
-  
+<Autores> Autores:
+	Batallan, David Leonardo
+	Flouret, Agustín Miguel 
+	Jadur, Luciano 
+	Milhas, Facundo 
+	de Vedia, Agustín Mariano
+<\Autores  
   <Enunciado> :
 	
 		Un servidor de videojuegos se alquila por horas. El contrato dura un tiempo fijo y permite utilizar en forma exclusiva el mismo por una cantidad
